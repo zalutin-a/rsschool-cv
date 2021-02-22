@@ -27,12 +27,10 @@ I am also familiar with SASS and Bootstrap
 ## Examples  of code
 
 ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
+    var s = "Hello world";
+    console.log(s);
 ```
 ## Experience
-
-
 
 ## Education
 
