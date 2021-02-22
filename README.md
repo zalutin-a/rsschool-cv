@@ -1,1 +1,1 @@
-https://github.com/zalutin-a/rsschool-cv/cv
+https://zalutin-a.github.io/rsschool-cv/cv
