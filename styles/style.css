@@ -1,0 +1,75 @@
+body {
+  background-color: #c1c1c1;
+}
+
+
+.full-content {
+  display: grid;
+  grid-template-areas:  "post-1 post-2"  
+                        "post-1 post-7" 
+                        "post-3 post-3"  
+                        "post-4 post-4"
+                        "post-5 post-5"
+                        "post-6 post-6"; 
+  grid-template-rows: repeat(6);
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 800px;
+  font-family: 'Lato', arial;
+  font-size: 1.1em;
+  color: #666d89;
+  background-color: #F2F2F2;
+  margin: auto;
+  padding: 20px 50px 20px 50px;
+}
+.underline{border-bottom: solid 1px;}
+h1{font-size: 1.8em}
+h2{font-size: 1.3em;}
+
+
+.preview{
+  grid-area: post-1
+}
+
+
+.contacts{
+  grid-area: post-7
+}
+.contacts h2{
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contact-list{
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.contact-list li{margin-top: 5px;}
+
+
+.about-me{
+  grid-area: post-2;
+  margin-top: 55px;
+  
+}
+
+
+
+.skills{
+  grid-area: post-3
+}
+
+
+.examples{
+  grid-area: post-4
+}
+
+
+.education{
+  grid-area: post-5
+}
+
+
+.language-skills{
+  grid-area: post-6
+}
