@@ -10,7 +10,8 @@ body {
                         "post-3 post-3"  
                         "post-4 post-4"
                         "post-5 post-5"
-                        "post-6 post-6"; 
+                        "post-6 post-6"
+                        "post-8 post-8"; 
   grid-template-rows: repeat(6);
   grid-template-columns: repeat(2, 1fr);
   max-width: 800px;
@@ -19,7 +20,7 @@ body {
   color: #666d89;
   background-color: #F2F2F2;
   margin: auto;
-  padding: 20px 50px 20px 50px;
+  padding: 20px 50px 5px 50px;
 }
 .underline{border-bottom: solid 1px;}
 h1{font-size: 1.8em}
@@ -72,4 +73,27 @@ h2{font-size: 1.3em;}
 
 .language-skills{
   grid-area: post-6
+}
+
+
+footer{
+  grid-area: post-8;
+  display: flex;
+  justify-content: space-around;
+  
+  align-items: center;
+  border-top: solid 1px;
+}
+.links{
+  display: flex;
+  list-style-type : none;
+}
+.git{
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+.rss{
+  width: 75px;
+  height: 30px;
 }
